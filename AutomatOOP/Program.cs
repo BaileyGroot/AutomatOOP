@@ -9,21 +9,34 @@ namespace AutomatOOP
         static void Main(string[] args)
         {
 
-            WriteLine("Vending Machine");
+            // ID : 1-8
 
-            WriteLine(" ");
+            MainMenu menu = new MainMenu();
+            menu.Start();
 
-            WriteLine("|  [1] item   |  [2] item |  [3] item |  [4] item |  [5] item |  [6] item | \n" +
-                      "|  [7] item   |  [8] item |  [9] item | [10] item | [11] item | [12] item | \n" +
-                      "| [13] item   | [14] item | [15] item | [16] item | [17] item | [18] item | \n");
+            // Vending Machine : Visual
 
-            WriteLine(" ");
+            // 1-2-5-10-20 Dansih Coins
 
-            WriteLine("Write the number of the product you want to purchase.");
-            string product = ReadLine();
-            Write("Product: " + product);
+            // Menu
 
-            ReadKey();
+            // Choose product - Payment(return money)
+            // Refund - product
+            // Admin Menu
+            // |
+            // v
+
+            // Admin menu
+
+            // Add Product
+            // Change Product
+            // Remove Product
+            // Show list of products
+            // Show sum of money
+
+
+
+
 
         }
     }
